@@ -1,52 +1,51 @@
-.icon {
-  background-image: url('sprite.png');
-}
-
-.icon-nintendo {
-  background-position: -4px -4px;
+.bg-cafelingo {
   width: 40px;
-  height: 10px;
+  height: 40px;
+  background: url(css_sprites.png) -1px -5px;
+  background-size: 95px;
 }
 
-.icon-welldoo {
-  background-position: -4px -22px;
-  width: 40px;
-  height: 12px;
+.bg-dresdner {
+  width: 40px; height: 36px;
+  background: url('css_sprites.png') -10px -126px;
 }
 
-.icon-emzweb {
-  background-position: -4px -42px;
-  width: 40px;
-  height: 21px;
+.bg-deutsche {
+  width: 40px; height: 30px;
+  background: url('css_sprites.png') -126px -72px;
 }
 
-.icon-lmu {
-  background-position: -4px -71px;
-  width: 40px;
-  height: 27px;
+.bg-emzweb {
+  width: 40px; height: 21px;
+  background: url('css_sprites.png') -188px -57px;
 }
 
-.icon-deutsche {
-  background-position: -4px -106px;
-  width: 40px;
-  height: 30px;
+.bg-favicon {
+  width: 16px; height: 16px;
+  background: url('css_sprites.png') -130px -126px;
 }
 
-.icon-dresdner {
-  background-position: -4px -144px;
-  width: 40px;
-  height: 36px;
+.bg-gaba {
+  width: 40px; height: 36px;
+  background: url('css_sprites.png') -70px -126px;
 }
 
-.icon-gaba {
-  background-position: -4px -188px;
-  width: 40px;
-  height: 36px;
+.bg-lmu {
+  width: 40px; height: 27px;
+  background: url('css_sprites.png') -188px -10px;
 }
 
-.icon-marek {
-  background-position: -4px -232px;
-  width: 42px;
-  height: 42px;
+.bg-marek {
+  width: 42px; height: 42px;
+  background: url('css_sprites.png') -126px -10px;
 }
 
+.bg-welldoo {
+  width: 40px; height: 12px;
+  background: url('css_sprites.png') -188px -98px;
+}
+
+.bg-nintendo {
+  width: 40px; height: 10px;
+  background: url('css_sprites.png') -188px -130px;
+}

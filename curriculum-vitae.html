@@ -8,7 +8,9 @@
     <link rel="icon"
           type="image/png"
           href="img/favicon.png">
-    <link rel="stylesheet" href="dist/style.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/_sprite.css">
 </head>
 <body>
 <header>
@@ -20,20 +22,21 @@
 <section id="cd-timeline" class="cd-container">
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-web">
-            <div class="icon icon-marek"></div>
+            <div class="icon bg-marek"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
-            <h2><a href="http://marek-sonnabend.de/frontend">Frontend Web Developer & Agile Coach</a> _ Berlin</h2>
+            <h2><a href="http://marek-sonnabend.de/frontend">Web-Entwickler / Agile Coach / Consultant</a> _ Berlin</h2>
             <p>I am a Freelance Frontend Web Development and a certified Agile Coach / Scrum Master.</p>
-            <p>Stack : Javascript (Angular, jQuery, Plain Vanilla), Unit Testing (Jasmine), CSS3 (Sass + Less), HTML5, Node, Grunt / Gulp, NoSql (MongoDB), PHP, MySQL, Photoshop, GIT / SVN, Hybrid Apps, Scrum</p>
+            <p>SCRUM & Kanban, Javascript & Typescript, HTML5, CSS3 (Sass + Less), NoSql (MongoDB), MySQL, GIT / SVN,
+                JIRA, Continuous Integration & Deployment (Jenkins & Bamboo), Testing</p>
             <span class="cd-date">since October 2015</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-web cd-timeline-imgx2">
-            <div class="icon icon-welldoo logo-small"></div>
+            <div class="icon bg-welldoo logo-small"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -43,23 +46,36 @@
             <span class="cd-date">January 2013 - September 2015</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
-
+    
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-web cd-timeline-img">
+            <div class="icon bg-cafelingo logo-small"></div>
+        </div> <!-- cd-timeline-img -->
+        
+        <div class="cd-timeline-content">
+            <h2>Owner of the <a href="https://cafelingo.de">Cafelingo language school</a> _ Berlin</h2>
+            <p>In the year 2011 I founded a languagr school which offered German as a foreign language.</p>
+            <p>Group and private lessons were offered and managed using a self written software solution .</p>
+            <span class="cd-date">April 2011 - December 2012</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+    
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-web cd-timeline-imgx2">
-            <div class="icon icon-emzweb logo-small"></div>
+            <div class="icon bg-emzweb logo-small"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
             <h2><a href="http://emzweb.de">Freelance Web Developer</a> _ Berlin</h2>
             <p>I created websites and Facebook applications for clients of all areas.</p>
             <p>Stack : Javascript, CSS3, HTML5, PHP, MYSQL, Facebook SDK</p>
-            <span class="cd-date">January 2010 - December 2012</span>
+            <span class="cd-date">January 2010 - March 2011</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-web">
-            <div class="icon icon-nintendo logo-xs"></div>
+            <div class="icon bg-nintendo logo-xs"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -72,20 +88,20 @@
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-web cd-timeline-imgx2">
-            <div class="icon icon-gaba logo-medium"></div>
+            <div class="icon bg-gaba logo-medium"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
             <h2>Web Developer _ <a href="http://www.gaba.co.jp/">GABA, Tokyo / Japan</a></h2>
             <p>GABA is the biggest provider of private lessons in Japan. I helped creating the online booking platform.</p>
             <p>Stack : HTML, CSS, Javascript, ASP, .NET, SQL/MSSQL, Stored Procedures</p>
-            <span class="cd-date">September 2006 - März 2008</span>
+            <span class="cd-date">September 2006 - March 2008</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-university cd-timeline-imgx2">
-            <div class="icon icon-lmu logo-small"></div>
+            <div class="icon bg-lmu logo-small"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -97,7 +113,7 @@
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-bank">
-            <div class="icon icon-dresdner logo-small"></div>
+            <div class="icon bg-dresdner logo-small"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -110,7 +126,7 @@
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-bank">
-            <div class="icon icon-deutsche logo-small"></div>
+            <div class="icon bg-deutsche logo-small"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -123,7 +139,7 @@
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-bank">
-            <div class="icon icon-dresdner logo-small"></div>
+            <div class="icon bg-dresdner logo-small"></div>
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -137,7 +153,7 @@
 </section> <!-- cd-timeline -->
 
 <footer>
-    &copy; 2015 - Marek Sonnabend | <a href="index.html">Lebenslauf</a>  | <a href="http://marek-sonnabend.de/frontend/impressum">Impressum</a> | <a href="http://marek-sonnabend.de/frontend/datenschutz">Datenschutz</a>
+    &copy; 2018 - Marek Sonnabend | <a href="index.html">Lebenslauf</a>  | <a href="http://marek-sonnabend.de/frontend/impressum">Impressum</a> | <a href="http://marek-sonnabend.de/frontend/datenschutz">Datenschutz</a>
 </footer>
 </body>
 </html>
